@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do-List Mamed</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="./bank.png" alt="logo">
+        <div class="menu">
+            <p>БАНК</p>
+            <p>БИЗНЕС</p>
+            <p>ИНВЕСТИЦИИ</p>
+            <p>СТРАХОВКА</p>
+            <p>МОБАЙЛ</p>
+            <p>ПУТЕШЕСТВИЯ</p>
+            <p>РАЗВЛЕЧЕНИЯ</p>
+        </div>
+        <button class="vxod">
+            ВОЙТИ
+        </button>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Конвертер валют онлайн</h1>
+            <div class="converters">
+                <div class="converter">
+                    <div class="est">
+                        <p>У меня есть</p>
+                    </div>
+
+                    <div class="firstcur">
+                        <button class="right-rub ">RUB</button>
+                        <button class="right-usd">USD</button>
+                        <button class="right-eur">EUR</button>
+                        <button class="right-try">TRY</button>
+                    </div>
+
+                    <div class="input">
+                        <input type="number" id="firsrtid">
+                        <p class="stavit1"></p>
+                    </div>
+
+                </div>
+                <div class="converter">
+                    <div class="xovu">
+                        <p>Хочу приобрести</p>
+                    </div>
+                    <div class="secondcur">
+                        <button class="left-rub">RUB</button>
+                        <button class="left-usd  ">USD</button>
+                        <button class="left-eur">EUR</button>
+                        <button class="left-try">TRY</button>
+                    </div>
+                    <div class="input">
+                        <input type="number" id="secondid">
+                        <p class="stavit2"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./layihe.js"></script>
+</body>
+
+</html>
